@@ -107,16 +107,15 @@ function App() {
 </button>
 <button className="resume-button" onClick={() => {
   const link = document.createElement('a');
-  link.href = '/assets/Naga_Satish_ReactJs_Resume.pdf';
-  link.download = 'Naga_Satish_ReactJs_Resume.pdf';  // You can specify the download file name here
+  link.href = '/Naga_Satish_ReactJs_Resume.pdf';  // Ensure this path is correct
+  link.download = 'Naga_Satish_ReactJs_Resume.pdf';
+  document.body.appendChild(link);
   link.click();
+  document.body.removeChild(link);
 }}>
   My Resume
 </button>
 
-
-
-  
         </div>
       </section>
 
@@ -193,37 +192,24 @@ function App() {
 
       {/* Contact Section */}
       
-      <section id="contact" className="contact-section">
-        <h2 className="contact-header">Get <span className="gradient-text">in Touch</span></h2>
-        <div className="contact-container">
-          <div className="contact-info">
-            <p className="contact-text">
-              I'm currently available to take on new projects, so feel free to send me a message about anything you want me to work on. You can contact anytime.
-            </p>
-            <div className="contact-details">
+      {/* Contact Section */} <section id="contact" className="contact-section"> <h2 className="contact-header">Get in <span className="gradient-text">Touch</span></h2> <div className="contact-container"> 
+        <div className="contact-info">
+           <p className="contact-text"> I'm currently available to take on new projects, so feel free to send me a message about anything you want me to work on. You can contact anytime. </p>
+            <div className="contact-details"> 
               <div className="contact-detail">
-                <span className="icon">📧</span>
-                <span>Email: <a href="mailto:nagsatish7893@gmail.com">nagsatish7893@gmail.com</a></span>
-              </div>
-              <div className="contact-detail">
-                <span className="icon">📞</span>
-                <span>Phone: 7893605524</span>
-              </div>
-              <div className="contact-detail">
-                <span className="icon">📍</span>
-                <span>Location: Machilipatnam, India</span>
-              </div>
-            </div>
-          </div>
-          <form className="contact-form" onSubmit={onSubmit}>
-  <input type="text" name="name" placeholder="Your Name" required className="form-input" />
-  <input type="email" name="email" placeholder="Your Email" required className="form-input" />
-  <textarea name="message" placeholder="Write your message here" required className="form-textarea"></textarea>
-  <button type="submit" className="submit-button">Submit now</button>
-</form>
-
-        </div>
-      </section>
+        <span className="icon">📧</span> 
+          <span>Email: <a href="mailto:nagsatish7893@gmail.com">nagsatish7893@gmail.com</a></span>
+        </div> <div className="contact-detail">
+        <span className="icon">📞</span> 
+       <span>Phone: 7893605524</span> </div>
+        <div className="contact-detail"> 
+       <span className="icon">📍</span> 
+       <span>Location: Machilipatnam, India</span> </div> 
+      </div> </div> <form className="contact-form" onSubmit={onSubmit}> 
+       <input type="text" name="name" placeholder="Your Name" required className="form-input" /> 
+        <input type="email" name="email" placeholder="Your Email" required className="form-input" /> 
+      <textarea name="message" placeholder="Write your message here" required className="form-textarea"></textarea> 
+      <button type="submit" className="submit-button">Submit now</button> </form> </div> </section>
       
 
       {/* Footer */}
