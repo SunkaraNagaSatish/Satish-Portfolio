@@ -105,17 +105,9 @@ function App() {
         <button className="connect-button-main">
   <a href="#contact" className="connect">Connect with me</a>
 </button>
-<button className="resume-button" onClick={() => {
-  const link = document.createElement('a');
-  link.href = '/Naga_Satish_ReactJs_Resume.pdf';  // Ensure this path is correct
-  link.download = 'Naga_Satish_ReactJs_Resume.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}}>
-  My Resume
+<button className="resume-button" onClick={() => window.open('/Satish-Portfolio/Naga_Satish_ReactJs_Resume.pdf', '_blank')}>
+ My Resume
 </button>
-
         </div>
       </section>
 
@@ -210,8 +202,6 @@ function App() {
         <input type="email" name="email" placeholder="Your Email" required className="form-input" /> 
       <textarea name="message" placeholder="Write your message here" required className="form-textarea"></textarea> 
       <button type="submit" className="submit-button">Submit now</button> </form> </div> </section>
-      
-
       {/* Footer */}
       <Footer />
     </div>
