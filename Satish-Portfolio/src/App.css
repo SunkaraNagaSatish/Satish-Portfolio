@@ -203,7 +203,7 @@ body {
   .title {
     font-size: 1.5em; /* Adjust font size for smaller screens */
     border-right: 0.1em solid rgb(5, 5, 5); /* Adjust border thickness */
-    animation: typing 5s steps(120, end), blink-caret 0.75s step-end infinite; /* Adjust animation timing */
+    animation: typing 7s steps(160, end), blink-caret 0.75s step-end infinite; /* Adjust animation timing */
   }
 }
 
