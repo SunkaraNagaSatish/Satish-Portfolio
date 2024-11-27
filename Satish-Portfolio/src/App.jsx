@@ -106,8 +106,8 @@ function App() {
   <a href="#contact" className="connect">Connect with me</a>
 </button>
 <button className="resume-button" onClick={() => window.open('/Satish-Portfolio/Naga_Satish_ReactJs_Resume.pdf', '_blank')}>
- My Resume
-</button>
+      My Resume
+    </button>
         </div>
       </section>
 

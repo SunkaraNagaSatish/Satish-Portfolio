@@ -181,6 +181,24 @@ body {
   margin-bottom: 20px;
 }
 
+.title {
+
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(5, 5, 5);
+  animation: typing 7s steps(150, end), blink-caret 0.85s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: rgb(2, 2, 2); }
+}
+
 .highlight {
   background: linear-gradient(to right, #DF8908, #B415FF);
   -webkit-background-clip: text;
