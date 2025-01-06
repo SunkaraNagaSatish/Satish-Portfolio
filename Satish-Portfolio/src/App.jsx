@@ -99,7 +99,7 @@ function App() {
           I’m <span id="satish">Nagasatish</span>, frontend developer <br /> based in India.
         </h1>
         <p className="description">
-          I am a frontend developer from India with 2 years of experience in Captelex Company. I specialize in building responsive and visually compelling web applications.
+          I am a frontend developer from India with 3 years of experience in Captelex Company. I specialize in building responsive and visually compelling web applications.
         </p>
         <div className="buttons">
         <button className="connect-button-main">
@@ -118,7 +118,7 @@ function App() {
           <div className="about-text">
             <h2 className="about-title">About <span className="highlight">me</span></h2>
             <p className="about-description">
-              I am an experienced frontend developer with over 2 years of expertise in the field. Throughout my career, I have collaborated with multiple organizations to contribute to their success.
+              I am an experienced frontend developer with over 3 years of expertise in the field. Throughout my career, I have collaborated with multiple organizations to contribute to their success.
             </p>
             <div className="skills">
               <div className="skill"><span>HTML & CSS</span><div className="skill-bar html-css"></div></div>
@@ -127,7 +127,7 @@ function App() {
               <div className="skill"><span>Next JS</span><div className="skill-bar next-js"></div></div>
             </div>
             <div className="experience-info">
-              <div className="experience-item"><span className="experience-number">2+</span><span>Years of Experience</span></div>
+              <div className="experience-item"><span className="experience-number">3+</span><span>Years of Experience</span></div>
               <div className="experience-item"><span className="experience-number">10+</span><span>Projects Completed</span></div>
               <div className="experience-item"><span className="experience-number">5+</span><span>Happy Clients</span></div>
             </div>
